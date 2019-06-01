@@ -1,0 +1,9 @@
+server:
+  port: 8080
+logging:
+  level:
+    com.wanjia: INFO
+
+mybatis:
+  mapper-locations: classpath*:mybatis/mappers/*.xml
+  type-aliases-package: com.wanjia.zhensuo.admin.entity
